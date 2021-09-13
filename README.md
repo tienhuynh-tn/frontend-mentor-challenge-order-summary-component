@@ -60,6 +60,6 @@ I will develop it with an ui that makes it easier for users to see. Waiting for 
 - Frontend Mentor - [@tienhuynh-tn](https://www.frontendmentor.io/profile/tienhuynh-tn)
 - Facebook - [@tien.huynhlt.tn](https://www.facebook.com/tien.huynhlethuy.tn/)
 
-## {#license} License & Copyright 
+<h2 id="license">License & Copyright</h2>
 
 &copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE]().
