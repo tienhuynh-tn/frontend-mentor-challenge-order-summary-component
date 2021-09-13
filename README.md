@@ -10,13 +10,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [License & Copyright](#license)
 
 ## Overview
 
@@ -28,20 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop-1](./images/demo/desktop-1.png) ![Desktop-2](./images/demo/desktop-2.png) ![Mobile](./images/demo/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component)
+- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenge-order-summary-component/)
 
 ## My process
 
@@ -49,62 +38,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will develop it with an ui that makes it easier for users to see. Waiting for my future features ~~
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [`README-guide.md`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/README-guide.md) - This will help you to know how to start this project
+- [`Original index.html`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/original-index.html) - This is the original `index.html` file from [`Frontend Mentor`](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- [`Design Folder`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/tree/master/design) - This is the folder for preview the design of web
+- [`Images Folder`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/tree/master/images) - This folder contains images resource 
+- [`style-guide.md`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/style-guide.md) - This file containing the information you'll need, such as color palette and fonts
+- [`README-template`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/README-template.md) - Use this file if you don't know how to write README.md file and [`Click here`](https://guides.github.com/features/mastering-markdown/) :point_left: to learn how to use MARKDOWN for writing `README.md`
+- [`W3Schools`](https://www.w3schools.com/) - This helped me for learning many CSS properties. I really liked this web and will use it going forward.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Tien Huynh](https://github.com/tienhuynh-tn)
+- Frontend Mentor - [@tienhuynh-tn](https://www.frontendmentor.io/profile/tienhuynh-tn)
+- Facebook - [@tien.huynhlt.tn](https://www.facebook.com/tien.huynhlethuy.tn/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+## {#license} License & Copyright 
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+&copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE]().
