@@ -8,161 +8,177 @@ html{
     font-family: 'Red Hat Display', sans-serif;
 }
 
-@media screen and (min-width: 0px) {
-    body{
-        background-image: url('../images/pattern-background-mobile.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: hsl(225, 100%, 94%);
-    }
+/* Mobile first */
+body{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
 
-    #main{
-        text-align: center;
-        background-color: #fff;
-        margin: 10% 10%;
-        border-radius: 20px;
-    }
+header{
+    margin: 15% 5% 0;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
 
-    #main .banner{
-        width: 100%;
-        border-radius: 20px 20px 0 0;
-    }
+header .banner{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
 
-    .content .content-heading{
-        font-weight: 900;
-        padding: 5%;
-        color: hsl(223, 47%, 23%);
-    }
-    
-    .content .content-info{
-        padding: 0 5%;
-        color: hsl(224, 23%, 55%);
-        line-height: 1.4;
-        font-size: 90%;
-    }
-    
-    .content-plan{
-        background-color: hsl(225, 100%, 98%);
-        margin: 10% 5%;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-    
-    .content-plan .plan-icon{
-        width: 30%;
-        float: left;
-        padding: 5% 5%;
-    }
+header .heading{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-weight: 900;
+    font-size: 130%;
+    padding: 6% 0;
+    background-color: #fff;
+}
 
-    .content-plan .type{
-        width: 40%;
-        float: left;
-        font-size: 70%;
-        text-align: left;
-        padding-top: 8%;
-        padding-bottom: 8%;
-    }
+main{
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    margin: 0 5%;
+}
+
+main .content{
+    padding: 0 10%;
+}
+
+main .content-text{
+    color: hsl(224, 23%, 55%);
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 8%;
+}
+
+main .plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan .plan-icon{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.plan .plan-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.plan .plan-name{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding: 0 0 3%;
+}
+
+.plan .plan-price{
+    color: hsl(224, 23%, 55%);
+    padding: 3% 0 0;
+}
+
+.plan .plan-change{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.plan .plan-change:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+main .button{
+    margin: 5% 5%;
+}
+
+.button input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button .pay-btn{
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 20px 0px hsl(224, 23%, 55%);
+    margin-bottom: 10px;
+}
+
+.button .pay-btn:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+
+.button .cancel-btn{
+    border: none;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+
+.button .cancel-btn:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+/* 
+@media screen and (min-width: 240px){
+
+}
+
+@media screen and (min-width: 320px){
     
-    .content-plan .plan-name{
-        font-weight: 900;
-        color: hsl(223, 47%, 23%);
-        padding-bottom: 3%;
-    } 
-    
-    .content-plan .plan-price{
-        padding-top: 3%;
-        color: hsl(224, 23%, 55%);
-    }
-    
-    .content-plan .plan-change{
-        font-size: 70%;
-        width: 30%;
-        padding-top: 12%;
-        padding-bottom: 12%;
-        float: left;
-        text-decoration: underline;
-        color: hsl(245, 75%, 52%);
-        font-weight: 700;
-        cursor: pointer;
-    }
-    
-    .button {
-        clear: both;
-        background-color: #fff;
-        margin: 0 5%;
-    }
-    
-    .button input{
-        width: 100%;
-        padding: 16px;
-        border-radius: 10px;
-        font-weight: 700;
-        cursor: pointer;
-    }
-    
-    .button .pay-btn{
-        background-color: hsl(245, 75%, 52%);
-        color: #fff;
-        border: none;
-        display: block;
-        box-shadow: 0 10px 30px hsl(245, 75%, 52%);
-        margin-bottom: 20px;
-    }
-    
-    .button .cancel-btn{
-        border: none;
-        background-color: #fff;
-        color: hsl(224, 23%, 55%);
-    }
 }
 
 @media screen and (min-width: 375px){
+    
+}
+
+@media screen and (min-width: 480px){
+    
+} */
+
+@media screen and (min-width: 768px){
     body{
-        background-image: url('../images/pattern-background-desktop.svg');
+        background-image: url(../images/pattern-background-desktop.svg);
     }
+    
+    header{
+        margin: 15% 25% 0;
+    }
+    
+    main{
+        margin: 0 25%;
+    }    
+}
 
-    #main{
-        margin-left: 15%;
-        margin-right: 15%;
+@media screen and (min-width: 1024px){
+    header{
+        margin: 30% 30% 0;
     }
     
-    .content .content-info{
-        font-size: 100%;
-        padding: 0 10%;
-    }
-
-    .content-plan .type{
-        font-size: 90%;
-    }
-    
-    .content-plan .plan-change{
-        font-size: 90%;
-    }
-    
-    .button {
-        padding: 0 0 10%;
-    }
+    main{
+        margin: 0 30%;
+    }    
 }
 
 @media screen and (min-width: 1140px){
-    #main{
-        margin: 2% 30%;
-    }
-
-    .content-plan{
-        margin: 5% 10%;
-    }
-
-    .button{
-        margin: 0 10%;
-        padding: 0 0 5%;
-    }
-
-    .content-plan .type{
-        font-size: 100%;
+    header{
+        margin: 8% 35% 0;
     }
     
-    .content-plan .plan-change{
-        font-size: 100%;
+    main{
+        margin: 0 35%;
     }
 }
+
+
