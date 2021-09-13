@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-1](./images/demo/desktop-1.png) ![Desktop-2](./images/demo/desktop-2.png) ![Mobile](./images/demo/mobile.png)
+![Desktop](./images/demo/desktop.png) ![Mobile](./images/demo/mobile.png)
 
 ### Links
 
