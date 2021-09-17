@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component)
-- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenge-order-summary-component/)
+- Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/order-summary-component)
+- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/)
 
 ## My process
 
@@ -46,12 +46,12 @@ I will develop it with an ui that makes it easier for users to see. Waiting for 
 
 ### Useful resources
 
-- [`README-guide.md`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/README-guide.md) - This will help you to know how to start this project
-- [`Original index.html`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/original-index.html) - This is the original `index.html` file from [`Frontend Mentor`](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
-- [`Design Folder`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/tree/master/design) - This is the folder for preview the design of web
-- [`Images Folder`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/tree/master/images) - This folder contains images resource 
-- [`style-guide.md`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/style-guide.md) - This file containing the information you'll need, such as color palette and fonts
-- [`README-template`](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/README-template.md) - Use this file if you don't know how to write README.md file and [`Click here`](https://guides.github.com/features/mastering-markdown/) :point_left: to learn how to use MARKDOWN for writing `README.md`
+- [`README-guide.md`](./README-guide.md) - This will help you to know how to start this project
+- [`Original index.html`](./original-index.html) - This is the original `index.html` file from [`Frontend Mentor`](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- [`Design Folder`](./design) - This is the folder for preview the design of web
+- [`Images Folder`](./images) - This folder contains images resource 
+- [`style-guide.md`](./style-guide.md) - This file containing the information you'll need, such as color palette and fonts
+- [`README-template`](./README-template.md) - Use this file if you don't know how to write README.md file and [`Click here`](https://guides.github.com/features/mastering-markdown/) :point_left: to learn how to use MARKDOWN for writing `README.md`
 - [`W3Schools`](https://www.w3schools.com/) - This helped me for learning many CSS properties. I really liked this web and will use it going forward.
 
 ## Author
@@ -62,4 +62,4 @@ I will develop it with an ui that makes it easier for users to see. Waiting for 
 
 <h2 id="license">License & Copyright</h2>
 
-&copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](https://github.com/tienhuynh-tn/frontend-mentor-challenge-order-summary-component/blob/master/LICENSE).
+&copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](./LICENSE).
