@@ -1,13 +1,14 @@
-# Frontend Mentor - Challenges
+# :star: Frontend Mentor - Challenges :star:
 
 ![Frontend Mentor Logo](https://miro.medium.com/max/1124/1*dWe_Ryn_omllG8E6eeuWEw.png)
 
-## Table of Contents 
+## :writing_hand: Table of Contents 
 - [Description](#description)
 - [Lists of Challenges](#list-of-challenges)
 - [License & Copyright](#license-copyright)
 
 <h2 id="description">:books: Description</h2>
+
 - This is the main repository for all of the challenges in [`Frontend Mentor`](https://www.frontendmentor.io/challenges?sort=difficulty|asc).
 - Almost the challenges are free.
 - Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -23,4 +24,5 @@
 2| ... | ... | ... | ...
 
 <h2 id="license-copyright">:heavy_check_mark: License & Copyright</h2>
+
 &copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](./LICENSE).
