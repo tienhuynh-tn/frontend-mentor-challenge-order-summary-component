@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/order-summary-component)
-- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/)
+- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/index.html)
 
 ## My process
 
