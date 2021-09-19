@@ -20,7 +20,7 @@
 
 #| Challenge | Skills | Status | Live Demo
 -| --------- | ------ | ------ | ---------
-1| [Order summary component](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/order-summary-component/index.html) | HTML, CSS | Free | [Live Demo](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/)
+1| [Order summary component](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/order-summary-component/) | HTML, CSS | Free | [Live Demo](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/index.html)
 2| ... | ... | ... | ...
 
 <h2 id="license-copyright">:heavy_check_mark: License & Copyright</h2>
