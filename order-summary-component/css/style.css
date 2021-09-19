@@ -1,103 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-/* Mobile first */
-body{
-    background-image: url(../images/pattern-background-mobile.svg);
-    background-size: contain;
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     background-color: hsl(225, 100%, 94%);
 }
 
-header{
-    margin: 15% 5% 0;
-    background-color: #fff;
-    border-radius: 20px 20px 0 0;
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header .banner{
+#component {
+    max-width: 425px;
+    background-color: #fff;
+    margin-top: 1.8cm;
+    border-radius: 20px;
+}
+
+#component .banner {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
 
-header .heading{
+.heading {
     color: hsl(223, 47%, 23%);
-    text-align: center;
     font-weight: 900;
-    font-size: 130%;
-    padding: 6% 0;
-    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 1cm 0 0;
 }
 
-main{
-    background-color: #fff;
-    border-radius: 0 0 20px 20px;
-    margin: 0 5%;
-}
-
-main .content{
-    padding: 0 10%;
-}
-
-main .content-text{
+.content {
     color: hsl(224, 23%, 55%);
     font-size: 100%;
     text-align: center;
-    line-height: 1.5;
-    margin-bottom: 8%;
+    line-height: 1.4;
+    padding: 0.4cm 1.4cm;
 }
 
-main .plan{
+.plan {
+    margin: 0 0.8cm 0.6cm;
+    padding: .4cm;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
-    margin: 0 5% 10%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
-.plan .plan-icon{
-    margin-top: 5%;
-    margin-bottom: 5%;
+.plan__icon {
+    margin-right: .4cm;
 }
 
-.plan .plan-type{
+.plan__type {
+    flex-grow: 3;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.plan .plan-name{
+.plan__type-name {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    padding: 0 0 3%;
+    padding: 0 0 1px;
+    font-size: 16px;
 }
 
-.plan .plan-price{
+.plan__type-price {
     color: hsl(224, 23%, 55%);
-    padding: 3% 0 0;
+    padding: 1px 0 0;
+    font-size: 14px;
 }
 
-.plan .plan-change{
+.plan__change {
+    margin-left: .4cm;
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
     font-weight: 700;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .plan .plan-change:hover{
     color: hsl(223, 47%, 23%);
 }
 
-main .button{
-    margin: 5% 5%;
+.button{
+    margin: 0 .8cm;
 }
 
 .button input{
@@ -116,8 +115,10 @@ main .button{
     margin-bottom: 10px;
 }
 
-.button .pay-btn:hover{
-    background-color: hsl(223, 47%, 23%);
+.button .pay-btn:hover, 
+.button .cancel-btn:hover {
+    background-color: hsla(223, 47%, 23%, 0.5);
+    color: #fff;
 }
 
 .button .cancel-btn{
@@ -127,58 +128,28 @@ main .button{
     background-color: #fff;
 }
 
-.button .cancel-btn:hover{
-    background-color: hsl(223, 47%, 23%);
-}
-/* 
-@media screen and (min-width: 240px){
-
+.attribution {
+    margin-top: .5cm;
 }
 
-@media screen and (min-width: 320px){
-    
-}
-
-@media screen and (min-width: 375px){
-    
-}
-
-@media screen and (min-width: 480px){
-    
-} */
-
-@media screen and (min-width: 768px){
-    body{
-        background-image: url(../images/pattern-background-desktop.svg);
+@media (max-width: 376px) {
+    body {
+        background-image: url(../images/pattern-background-mobile.svg);
     }
-    
-    header{
-        margin: 15% 25% 0;
-    }
-    
-    main{
-        margin: 0 25%;
-    }    
-}
 
-@media screen and (min-width: 1024px){
-    header{
-        margin: 30% 30% 0;
+    #component {
+        margin: 1cm .5cm .5cm;
     }
-    
-    main{
-        margin: 0 30%;
-    }    
-}
 
-@media screen and (min-width: 1140px){
-    header{
-        margin: 8% 35% 0;
+    .heading {
+        padding-top: 0.8cm;
     }
-    
-    main{
-        margin: 0 35%;
+
+    .content {
+        padding: 0.6cm 1cm;
+    }
+
+    .attribution {
+        margin-top: 0;
     }
 }
-
-

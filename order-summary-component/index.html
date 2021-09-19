@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <!-- Link to logo -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 
   <style>
@@ -26,34 +25,30 @@
 </head>
 
 <body>
-  <header>
-    <img class="banner" src="./images/illustration-hero.svg" alt="Banner Hero">
-    <h1 class="heading">Order Summary</h1>
-    
-  </header>
-
   <main>
-    <div class="content">
-      <p class="content-text">
+    <div id="component">
+      <img class="banner" src="./images/illustration-hero.svg" alt="Banner Hero">
+      <h1 class="heading">Order Summary</h1>
+      <p class="content">
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </p>
-    </div>
 
-    <div class="plan">
-      <img src="./images/icon-music.svg" alt="icon music" class="plan-icon">
+      <div class="plan">
+        <img src="./images/icon-music.svg" alt="icon music" class="plan__icon">
 
-      <div class="plan-type">
-        <div class="plan-name">Annual Plan</div>
-        <div class="plan-price">$59.99/year</div>
+        <div class="plan__type">
+          <div class="plan__type-name">Annual Plan</div>
+          <div class="plan__type-price">$59.99/year</div>
+        </div>
+
+        <div class="plan__change">Change</div>
       </div>
 
-      <div class="plan-change">Change</div>
-    </div>
-
-    <div class="button">
-      <input type="button" value="Proceed to Payment" class="pay-btn">
-      <input type="button" value="Cancel Order" class="cancel-btn">
+      <div class="button">
+        <input type="button" value="Proceed to Payment" class="pay-btn">
+        <input type="button" value="Cancel Order" class="cancel-btn">
+      </div>
     </div>
   </main>
 
