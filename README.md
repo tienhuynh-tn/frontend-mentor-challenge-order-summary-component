@@ -26,3 +26,5 @@
 <h2 id="license-copyright">:heavy_check_mark: License & Copyright</h2>
 
 &copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](./LICENSE).
+
+###### :love_you_gesture:	 Feel free to use and star my repository if you find something interesting :love_you_gesture:	
