@@ -113,6 +113,7 @@ main {
     border: none;
     box-shadow: 0 10px 20px 0px hsl(224, 23%, 55%);
     margin-bottom: 10px;
+    -webkit-appearance: none;
 }
 
 .button .pay-btn:hover, 
@@ -126,6 +127,7 @@ main {
     color: hsl(224, 23%, 55%);
     margin-bottom: 5%;
     background-color: #fff;
+    -webkit-appearance: none;
 }
 
 .attribution {
