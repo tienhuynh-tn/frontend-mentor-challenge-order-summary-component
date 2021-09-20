@@ -134,7 +134,7 @@ main {
     margin-top: .5cm;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 739px) {
     body {
         background-image: url(../images/pattern-background-mobile.svg);
     }
