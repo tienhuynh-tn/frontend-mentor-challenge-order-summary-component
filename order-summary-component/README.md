@@ -62,4 +62,4 @@ I will develop it with an ui that makes it easier for users to see. Waiting for 
 
 <h2 id="license">License & Copyright</h2>
 
-&copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](./LICENSE).
+&copy; 2021 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](https://github.com/tienhuynh-tn/frontend-mentor-challenges/blob/master/LICENSE).
