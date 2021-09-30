@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+   
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main {
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    margin: 60px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-accent {
+    position: absolute;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.main-content {
+}
+
+.heading {
+    margin: 30px 30px 20px;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
+.heading span {
+    color: hsl(277, 64%, 61%);
+}
+
+.content {
+    font-size: 15px;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0 30px 30px 30px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.statistics__items {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.statistics__items-number {
+    font-weight: 700;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+.statistics__items-name {
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+    color: white;
+}
+
+@media screen and (min-width: 741px){
+    
+}
+
+@media screen and (min-width: 1025px) {
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 100px;
+        text-align: left;
+    }
+
+    .main .banner {
+        width: 100%;
+        background-image: url(../images/image-header-desktop.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .banner-accent {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .main-content {
+        padding: 50px 100px 50px 50px;
+    }
+
+    .heading {
+        margin: 0 0 20px 0;
+    }
+
+    .content {
+        margin: 0 0 70px 0;
+    }
+
+    .statistics {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+}
