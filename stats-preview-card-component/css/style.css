@@ -89,7 +89,11 @@ body {
 }
 
 @media screen and (min-width: 741px){
-    
+    .statistics {
+        flex-direction: row;
+        padding-bottom: 0;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -98,6 +102,10 @@ body {
         flex-direction: row-reverse;
         margin: 100px;
         text-align: left;
+    }
+
+    .main img {
+        display: none;
     }
 
     .main .banner {
