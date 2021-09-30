@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/order-summary-component)
-- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenges/order-summary-component/)
+- Solution URL: [Github](https://github.com/tienhuynh-tn/frontend-mentor-challenges/tree/master/stats-preview-card-component)
+- Live Site URL: [Github Page](https://tienhuynh-tn.github.io/frontend-mentor-challenges/stats-preview-card-component/)
 
 ## My process
 
@@ -47,7 +47,7 @@ I will develop it with an ui that makes it easier for users to see. Waiting for 
 ### Useful resources
 
 - [`README-guide.md`](./README-guide.md) - This will help you to know how to start this project
-- [`Original index.html`](./original-index.html) - This is the original `index.html` file from [`Frontend Mentor`](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- [`Original index.html`](./original-index.html) - This is the original `index.html` file from [`Frontend Mentor`](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 - [`Design Folder`](./design) - This is the folder for preview the design of web
 - [`Images Folder`](./images) - This folder contains images resource 
 - [`style-guide.md`](./style-guide.md) - This file containing the information you'll need, such as color palette and fonts
