@@ -25,14 +25,12 @@ html {
     color: hsl(31, 77%, 52%);
     border-radius: 5px 0 0 5px;
     padding: 30px;
-    position: relative;
 }
 
 .item-2 {
     background-color: hsl(184, 100%, 22%);
     color: hsl(184, 100%, 22%);
     padding: 30px;
-    position: relative;
 }
 
 .item-3 {
@@ -40,27 +38,6 @@ html {
     color: hsl(179, 100%, 13%);
     border-radius: 0 5px 5px 0;
     padding: 30px;
-    position: relative;
-}
-
-.item__icon {
-    
-}
-
-.item__icon-circle {
-    width: 25px;
-    height: 25px;
-    top: 30px;
-    border-radius: 50%;
-    background-color: rgba(29, 28, 28, 0.2);
-}
-
-.item__icon-car {
-    position: absolute;
-    top: 34px;
-    left: 45px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
 }
 
 .item__header {
